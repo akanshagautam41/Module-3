@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODULE: 2 (HTML)t</title>
+    
+    <style>
+        *{
+            margin: 10;
+            padding: 10;
+            box-sizing: border-box;
+        }
+        body{
+          width: 100%;
+          height: 100%;
+            background-color: rgb(170, 183, 183);
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+
+        body h1{
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+        }
+        body p{
+            margin: 10px;
+            padding: 5px;
+            
+        
+        }
+       .fruit{
+        margin: 30px;
+        padding: 20px;
+        
+       }
+
+       table {
+      border-collapse: collapse;
+      margin: 30px;
+      padding: 20px;
+      
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+
+    
+
+    .main{
+    margin: 5%;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    
+  
+}
+
+.main .box1{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(0, 255, 94);
+    color: white;
+    border: 1px solid #000000;
+    
+    
+}
+.main .box1 h2{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.main .box1 .table1{
+    box-sizing: border-box;
+    border-collapse: collapse;
+      margin: 30px;
+      padding-bottom: 30px;
+     }
+.main .box1 .table1 th, td {
+    border: 3px solid rgb(0, 0, 0);
+      padding: 12px;
+      
+    }
+
+    .container {
+          width: 500px;
+          margin: 30px ;
+          padding: 30px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          background-color: #4CAF50;
+        }
+        
+        .container h3 {
+          text-align: center;
+        }
+        
+        .container input[type="text"],
+        .container input[type="email"],
+        .container input[type="password"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #000000;
+          border-radius: 3px;
+        }
+        
+        .container button {
+          width: 100%;
+          padding: 10px;
+          background-color: #f7f8f7;
+          color: rgb(0, 0, 0);
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+        
+        
+      
+   
+
+
+img{
+  width: 40%;
+  margin: 20px;
+  
+  display: flex;
+  justify-content:space-evenly ;
+}
+
+.main1{
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(lightblue,blue,skyblue);
+    color: rgb(218, 66, 58);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 22px;
+    
+    }
+    
+
+    /* Main descripton css end */
+
+     /* Main box  css start */
+
+     .box{
+        width: 100%;
+    height: inherit;
+    margin: 40px auto;
+    background-color: aqua;
+     }
+.box .text{
+color: red;
+font-size: 22px;
+padding: 20px;
+}
+.row{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                font-size: 22px;
+                
+                
+             }
+
+             .box .row .data{
+                color: blue;
+                margin: 10px;
+                
+               }
+
+               .row2{
+                width: 100%;
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+             font-size: 22px;
+        }
+        
+        .row2 .lft{
+           margin: 20px;
+            color: blue;
+           
+        }
+        .row2 .rgt{
+            margin: 20px;
+            color: blue;
+            
+        }
+
+        .row3{
+            width: 100%;
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .row3 .lft{
+            margin: 20px;
+            color: blue;
+            
+        }
+
+        .row3 .rgt{
+            margin: 20px;
+            color: blue;
+            
+        }
+        .row4{
+            margin-top: 40px;
+            color: red;
+        }
+        .row4 p{
+            margin-top: 20px;
+            color: blue;
+            font-size: 27px;
+        }
+
+        .row5{
+            width: 100%;
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+            column-gap: 30px;
+            border-radius: 20px;
+           
+        }
+
+        .row5 .lft data{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            
+            
+        }
+
+        select{
+            width: 40%;
+            border-radius: 20px;
+           border: 1px solid black;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>MODULE: 2 (HTML)</h1>
+        <p><strong>Q1.Define the terms: Website, Webpage, Web browser, Web server, HTML,
+            CSS</strong></p>
+            <p><strong>Website:</strong> A website is a collection of interconnected webpages that  are typically accessed through a uniform resource locator (URL) <br> and hosted on a web server. It is a digital platform containing various types of content, such as text, images, multimedia elements,<br> and interactive features, designed for users to access and navigate using a web browser.</p>
+    <p><strong>Webpage:</strong> A webpage is a single document or file within a website. It is a specific location on the web that displays information or content. <br> Webpages are written using languages like HTML (Hypertext Markup Language) and often incorporate other technologies such as CSS <br> (Cascading Style Sheets) and JavaScript to enhance their appearance and functionality.</p>
+        
+<p><strong>Web browser:</strong>A web browser is a software application that allows users to access, view, and interact with information on the internet. <br> It retrieves webpages from web servers and renders them on a user's device, such as a computer or mobile device. Popular web browsers <br> include Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari.</p>
+<p><strong>Web server: </strong>A web server is a computer or software application that stores and delivers webpages and other files to web browsers upon request. <br> It hosts the website's files and responds to requests made by users' web browsers. Web servers use protocols like <br> HTTP (Hypertext Transfer Protocol) to facilitate the communication between the server and the browser.</p>
+<p><strong>HTML (Hypertext Markup Language):</strong> HTML is the standard markup language used for creating the structure and content of webpages. <br> It provides a set of tags or elements that define the various elements of a webpage, such as headings, paragraphs, links, images, tables, <br> forms, and more. HTML tags are interpreted by web browsers to display the webpage content in a structured manner.</p>
+<p><strong>CSS (Cascading Style Sheets):</strong>CSS is a style sheet language used for describing the presentation and visual appearance of HTML documents. <br> It allows web developers to control the layout, colors, fonts, and other visual aspects of webpages. By separating the content (HTML) <br> from the presentation (CSS), it enables consistent styling across multiple webpages of a website and enhances the overall user experience.</p>
+</div>
+
+<div>
+    <p><strong>Q2. Create a webpage to show “This is my first HTML page”</strong></p>
+
+          <h1>This is my first HTML page</h1>
+        
+</div>
+
+<div>
+    <p><strong>Q3. Display top 10 IT companies list in html webpage</strong></p>
+     <h1>Top 10 IT Companies</h1>
+          <ol>
+            <li>Apple Inc.</li>
+            <li>Microsoft Corporation</li>
+            <li>Amazon.com, Inc.</li>
+            <li>Alphabet Inc. (Google)</li>
+            <li>IBM Corporation</li>
+            <li>Intel Corporation</li>
+            <li>Oracle Corporation</li>
+            <li>Samsung Electronics Co., Ltd.</li>
+            <li>Cisco Systems, Inc.</li>
+            <li>Hewlett Packard Enterprise Company</li>
+          </ol></div>
+          <div>
+<p><strong>Q4. Create a dropdown list</strong></p>
+
+      
+      <h1>Select a Fruit:</h1>
+      <div class="fruit">
+      <select>
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="strawberry">Strawberry</option>
+      </select></div>
+    
+          </div>
+          <div>
+            <p><strong>Q5. Create a Table Of college Management system using row span & col span.</strong></p>
+            <title>College Management System</title>
+ <h1>College Management System</h1>
+  <table>
+    <tr>
+      <th rowspan="2">Department</th>
+      <th colspan="3">Courses</th>
+    </tr>
+    <tr>
+      <th>Course Name</th>
+      <th>Course Code</th>
+      <th>Credits</th>
+    </tr>
+    <tr>
+      <td rowspan="3">Computer Science</td>
+      <td>Introduction to Programming</td>
+      <td>CSCI101</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Data Structures</td>
+      <td>CSCI201</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Database Management</td>
+      <td>CSCI301</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Electrical Engineering</td>
+      <td>Introduction to Circuits</td>
+      <td>ELEC101</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Power Systems</td>
+      <td>ELEC201</td>
+      <td>4</td>
+    </tr>
+  </table>
+</div>
+<div>
+    <p><strong>Q6. Create below table using HTML table tags </strong></p>
+</div>
+<div class="main">
+    <div class="box1">
+        <h2>European Roulette</h2>
+        <div class="table1">
+            <table>
+                <tr>
+                    <td rowspan="5">0</td>
+                    <th style="background-color: rgb(237, 54, 54);">3</th>
+                    <th>6</th>
+                    <th style="background-color: rgb(237, 54, 54);">9</th>
+                    <th style="background-color: rgb(237, 54, 54);">12</th>
+                    <th>15</th>
+                    <th style="background-color: rgb(237, 54, 54);">18</th>
+                    <th style="background-color: rgb(237, 54, 54);">21</th>
+                    <th>24</th>
+                    <th style="background-color: rgb(237, 54, 54);">27</th>
+                    <th style="background-color: rgb(237, 54, 54);">30</th>
+                    <th>33</th>
+                    <th style="background-color: rgb(237, 54, 54);">36</th>
+                    <td>2to1</td>
+                     
+
+                </tr>
+                <tr>
+                    
+                    <th>2</th>
+                    <th style="background-color: rgb(237, 54, 54);">5</th>
+                    <th style="background-color: rgb(4, 4, 4);">8</th>
+                    <th style="background-color: rgb(4, 4, 4);">11</th>
+                    <th style="background-color: rgb(237, 54, 54);">14</th>
+                    <th style="background-color: rgb(4, 4, 4);">17</th>
+                    <th style="background-color: rgb(4, 4, 4);">20</th>
+                    <th style="background-color: rgb(237, 54, 54);">23</th>
+                    <th style="background-color: rgb(4, 4, 4);">26</th>
+                    <th style="background-color: rgb(4, 4, 4);">29</th>
+                    <th style="background-color: rgb(237, 54, 54);">32</th>
+                    <th style="background-color: rgb(4, 4, 4);">35</th>
+                    <td>2to1</td>
+                </tr>
+                <tr>
+                    <th style="background-color: rgb(237, 54, 54);">1</th>
+                    <th style="background-color: rgb(4, 4, 4);">4</th>
+                    <th style="background-color: rgb(237, 54, 54);">7</th>
+                    <th style="background-color: rgb(4, 4, 4);">10</th>
+                    <th style="background-color: rgb(4, 4, 4);">13</th>
+                    <th style="background-color: rgb(237, 54, 54);">16</th>
+                    <th style="background-color: rgb(237, 54, 54);">19</th>
+                    <th style="background-color: rgb(237, 54, 54);">22</th>
+                    <th style="background-color: rgb(237, 54, 54);">25</th>
+                    <th style="background-color: rgb(4, 4, 4);" >28</th>
+                    <th style="background-color: rgb(4, 4, 4);">31</th>
+                    <th style="background-color: rgb(237, 54, 54);">34</th>
+                    <td>2to1</td>
+                </tr>
+                <tr>
+                    <th colspan="4">1st12</th>
+                    <th colspan="4">2nd12</th>
+                    <th colspan="4">3rd12</th>
+                    
+                    <td rowspan="2">2to1</td>
+                </tr>
+                <tr>
+                    <th  colspan="2" >1to18</th>
+                    <th colspan="2">EVEN</th>
+                    <th style="background-color: rgb(237, 54, 54);" colspan="2"></th>
+                    <th style="background-color: black;"colspan="2"></th>
+                    <th colspan="2">ODD</th>
+                    <th colspan="2">19to36</th>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<div>
+  <p>Q7. Create Registration form using HTML, CSS</p>
+</div>
+<div class="container">
+  <h3>Registration Form</h3>
+  <form>
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Last Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Register</button>
+  </form>
+</div>
+<div>
+  <p>Q8. In how many ways can a CSS be integrated as a web page? </p>
+</div>
+<div>
+  <p>1.Inline CSS: Inline CSS is applied directly to individual HTML elements using the "style" attribute. Here's an example:</p>
+  <img src="img8.png" alt="">
+  <p>2.Internal CSS: Internal CSS is defined within the HTML document using the "style" tag in the head section. Here's an example:</p>
+  <img src="img9.png" alt="">
+  <p>3.External CSS: External CSS is defined in a separate CSS file and linked to the HTML document using the "link" tag in the head section. Here's an example:</p>
+<img src="img10.png" alt="">
+<img src="img11.png" alt="">
+</div>
+<div>
+  <p>Q9. Create simple three pages using External CSS, Internal CSS, and Inline
+    CSS. </p>
+</div>
+<div>
+  <p>1. External CSS :</p>
+  <img src="img1 (2).png" alt="">
+  <img src="img1 (1).png" alt="">
+  <img src="img3.png" alt="">
+  <p>2. Internal CSS:</p>
+  <img src="img4.png" alt="">
+  <img src="img5.png" alt="">
+  <img src="img6.png" alt="">
+  <p>3. Inline CSS:</p>
+  <img src="img7.png" alt="">
+</div>
+<div>
+  <p>Q10. Create below page using HTML CSS </p>
+</div>
+<!--form description-->
+<div class="main1">
+  <h1>Individual Registration Form</h1>
+</div>
+<!--form description end-->
+<!--main box -->
+<div class="box">
+  <div class="text">
+  <h2>User Particular</h2></div>
+  <!--Frist row start-->
+  <div class="row">
+      <div class="data">
+
+          <label  for="Login ID"> * Login ID </label> 
+<input  type="text" placeholder="Login id" required> <br></div>
+<div class="data"><label> * Password </label> 
+  <input type="password" placeholder="password" required><br></div>
+  <div class="data"><label> * Confirm Password </label> 
+<input type="confirm password" placeholder="confirm password" required></div>
+      
+  </div>
+  <!--Frist row end-->
+  <!--second row start-->
+  <div class="text">
+      <h2>Personal Particular</h2>
+  </div>
+  <div class="row2">
+      <div class="lft">
+          <div class="data"><label for="Salutation">*Salutation</label>
+  <select name="" id="">
+      <option value="">select</option>
+      <option value="">select</option>
+      <option value="">select</option>
+</select></div> <br>
+<div class="data"><label for="Middle name"> Middle name</label>
+<input type="text" placeholder="" ></div> <br>
+<div class="data"><label for="Resident Status">*Resident Status</label>
+<select name="" id=""><br>
+<option value="">select</option>
+<option value="">select</option>
+<option value="">select</option>
+
+</select> </div><br>
+<div class="data"><label for="Email Id">Email id</label>
+<input type="email" placeholder=""> </div><br>
+      </div>
+      <div class="rgt">
+          <div class="data">
+          <label for="First Name">* First Name</label>
+  <input type="text" placeholder="" required> </div><br>
+  <div class="data"><label for="Last Name">* Last Name</label>
+  <input type="text" placeholder="" required> </div><br>
+  <div class="data"> <label for="country">*Country</label>
+  <select name="" id=""><br>
+      <option value="">select</option>
+      <option value="">select</option>
+      <option value="">select</option>
+
+  </select></div> <br>
+  <div class="data"> <label for="Mobile Number">* Mobile Number</label>
+      <input type="Mobile Number" placeholder=""></div>
+      </div>
+  </div>
+  <!--second row end-->
+  <!--third row start-->
+  <div class="text"><h2>Account Particular</h2></div>
+  <div class="row3">
+      <div class="lft">
+      <div class="data"><label for="15 digit Account number">* 15 digit Account number"</label>
+          <input type="number" placeholder="" required></div><br>
+          <div class="data"><label for="Fund Transfer">*Fund Transfer</label>
+              <select name="" id=""><br>
+              <option value="">select</option>
+              <option value="">select</option>
+              <option value="">select</option>
+      
+          </select></div><br>
+  </div>
+      <div class="rgt">
+          <div class="data"><label for="Nick Name">* Nick Name"</label>
+              <input type="text" placeholder="" required></div>
+      </div>
+  </div>
+  <!--third row end-->
+  <!--fourth row start-->
+  <div class="row4">
+      <h2>DECLARTION</h2>
+      <p>I have read, understood and hereby agree to the Term And Condition in respect of all products and channels.</p>
+      <p>I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches. I confirm that all accounts under this login  name are operated singly and in case of joint account operated by either or survivor / anyone or survivor (s) under his/her joint name respectively . I do hereby declare that informtion furnished in  this form is true to the best of my knowledge and belief.</p>
+     
+  </div>
+  <!--fourth row end-->
+  <!--fifth row start-->
+  <div class="row5">
+      <div class="lft">
+          <div class="data"><input style="color: white; background-color: blue;"  type="submit" value="submit"></div>
+      </div>
+      <div class="rgt">
+          <div class="data"><input style="color: white; background-color: blue;"  type="reset" value="reset"></div>
+      </div>
+  </div>
+  <!--fifth row end-->
+</div>
+<div>
+  <p>Q11. Create link-pseudo classes using external css, to format links on the pages</p>
+</div>
+<div>
+  <h1>Link Pseudo-Classes Example</h1>
+  
+    <a href="https://www.google.com/">Normal Link /open Google</a>
+    <br>
+    <a href="https://www.google.com/" class="link-hover">Link with Hover Effect / open google</a>
+    <br>
+    <a href="https://www.google.com/" class="link-active">Link with Active Effect / open Google</a>
+</div>
+<div>
+  <p>Q12. Create a dynamic pseudo class using HTML, CSS </p>
+</div>
+<div>
+  <h1>Dynamic Pseudo-Class Example</h1>
+  
+  <button class="dynamic-button">Click Me</button>
+</div>
+</body>
+</html>
